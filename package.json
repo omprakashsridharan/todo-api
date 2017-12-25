@@ -8,9 +8,9 @@
     "start": "nodemon server.js"
   },
   "engines": {
-    "node": "5.0.0",
-    "npm": "4.6.1"
-    },  
+    "node": "8.9.3",
+    "npm":"5.5.1"
+  },  
   "author": "",
   "license": "ISC",
   "devDependencies": {
