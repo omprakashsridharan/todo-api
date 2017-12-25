@@ -4,8 +4,10 @@
   "description": "A RESTful Todo API",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm run webpack",
+    "webpack": "./node_modules/webpack/bin/webpack.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start:dev": "npm run webpack -- -w & nodemon --ignore src/ --ignore dist/ server.js"
   },
   "engines": {
     "node": "8.9.3",
