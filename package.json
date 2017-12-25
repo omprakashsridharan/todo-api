@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "postinstall": "./node_modules/.bin/grunt build"
+    "start": "nodemon server.js"
   },
   "engines": {
     "node": "8.9.3",
