@@ -1,6 +1,6 @@
 var express = require('express'),
     app = express(),
-    port = process.env.port || CONFIG.port,
+    port = process.env.port,
     mongoose = require('mongoose'),
     Todos = require('./api/models/todoListModel'),
     bodyParser = require('body-parser')
